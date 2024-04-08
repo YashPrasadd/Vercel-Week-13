@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "install",
+			"path": "vercel-test-src/vercel-test-src",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [],
+			"label": "npm: install - vercel-test-src/vercel-test-src",
+			"detail": "install dependencies from package"
+		}
+	]
+}
